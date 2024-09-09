@@ -96,3 +96,29 @@ git push -u origin main <!-- push local branch ke remote repo -->
 
 32. Merge branch baru ke main
 git merge add/file
+
+# How to make conflicted file
+<!-- udah beberapa conflict tapi masih bingung kenapa bisa konflik -->
+1. git checkout add/readme.md
+2. Adding new line di text.txt
+3. git add test.txt
+4. git commit -m "adding new line"
+5. git checkout fix/readme
+6. Adding new line to test.txt in the same line as add/file
+LIne 10 - Line 14
+
+7. git stash8
+8. git merge add/file
+9. git stash pop
+
+
+# Resolve Conflict
+1. Terjadi conflict
+2. Accept both changes
+3. Autosave file
+4. git add Readme.md
+5. git commit -m "resolve conflict"
+<!--  karena masih di fix/readme aku gabung dulu ke main -->
+6. git checkout main
+7. git merge fix/readme.md
+7. git push origin -u main
