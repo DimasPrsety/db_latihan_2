@@ -118,4 +118,7 @@ LIne 10 - Line 14
 3. Autosave file
 4. git add Readme.md
 5. git commit -m "resolve conflict"
-6. git push origin -u main
+<!--  karena masih di fix/readme aku gabung dulu ke main -->
+6. git checkout main
+7. git merge fix/readme.md
+7. git push origin -u main
