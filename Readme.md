@@ -116,4 +116,6 @@ LIne 10 - Line 14
 1. Terjadi conflict
 2. Accept both changes
 3. Autosave file
-4. 
+4. git add Readme.md
+5. git commit -m "resolve conflict"
+6. git push origin -u main
