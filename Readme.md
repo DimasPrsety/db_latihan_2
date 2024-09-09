@@ -111,6 +111,7 @@ LIne 10 - Line 14
 8. git merge add/file
 9. git stash pop
 
+![alt text](<Screenshot 2024-09-09 at 23.29.49.png>)
 
 # Resolve Conflict
 1. Terjadi conflict
