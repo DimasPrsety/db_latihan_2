@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"folders": [
 		{
 			"path": "../GitHub/db_latihan-1"
@@ -8,4 +9,11 @@
 		}
 	],
 	"settings": {}
+=======
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
+>>>>>>> add/features
 }
