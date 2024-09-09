@@ -101,14 +101,19 @@ git merge add/file
 <!-- udah beberapa conflict tapi masih bingung kenapa bisa konflik -->
 1. git checkout add/readme.md
 2. Adding new line di text.txt
+3. git add test.txt
+4. git commit -m "adding new line"
+5. git checkout fix/readme
+6. Adding new line to test.txt in the same line as add/file
+LIne 10 - Line 14
 
-git add test.txt
-git commit -m "adding new line"
-git checkout fix/readme
-Adding new line to text.txt in the same line as add/file
-git stash
-git merge add/file
-git stash pop
+7. git stash8
+8. git merge add/file
+9. git stash pop
 
 
 # Resolve Conflict
+1. Terjadi conflict
+2. Accept both changes
+3. Autosave file
+4. 
