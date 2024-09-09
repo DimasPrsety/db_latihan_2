@@ -1,19 +1,7 @@
 {
-<<<<<<< HEAD
-	"folders": [
-		{
-			"path": "../GitHub/db_latihan-1"
-		},
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
-=======
     "folders": [
         {
             "path": "."
         }
     ]
->>>>>>> add/features
 }

@@ -96,4 +96,3 @@ git push -u origin main <!-- push local branch ke remote repo -->
 23. Create Pull Request
 
 32. Merge branch baru ke main
-
